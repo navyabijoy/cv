@@ -249,13 +249,60 @@
         <div class="section-title">projects</div>
       </div>
 
+
       <div class="card fade">
         <div class="card-header">
           <div class="card-icon">
             <img src="image8.jpg" alt="Icon">
           </div>
           <div class="card-meta">
-            <div class="card-title"><a href="https://github.com/navyabijoy/conduit-go" target="_blank"
+            <div class="card-title"><a href="https://chaosline.navyabijoy.tech" target="_blank"
+                rel="noopener">Chaosline - AI Agent Safety Testing Framework</a></div>
+          </div>
+        </div>
+        <ul>
+          <li>Built pre-deployment chaos testing platform that injects realistic tool failures to detect harmful agent behavior; categorizes failures across 4-quadrant matrix (safe/degraded vs. honest/silent); ships 38 preset scenarios across 6 tool domains (payments, database, email, filesystem, HTTP, search).</li>
+          <li>Engineered a production-ready TypeScript monorepo CLI with a YAML scenario DSL, stateful mock environments, replayable test bundles, and Markdown/JSON/HTML reporting for reproducible CI testing.</li>
+        </ul>
+        <div class="tags">
+          <span class="tag">TypeScript</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Anthropic SDK</span>
+          <span class="tag">OpenAI SDK</span>
+          <span class="tag">MCP</span>
+          <span class="tag">Docker</span>
+        </div>
+      </div>
+
+     <div class="card fade">
+        <div class="card-header">
+          <div class="card-icon">
+            <img src="image15.jpg" alt="Icon">
+          </div>
+          <div class="card-meta">
+            <div class="card-title"><a href="https://github.com/navyabijoy/push-to-prod" target="_blank"
+                rel="noopener">Bellwether - Self Managing API</a></div>
+          </div>
+        </div>
+        <ul>
+          <li>Built an end-to-end system that detects silent API breaking changes (enum removals, unit shifts, nullability creep) through LLM-powered semantic probes and deterministic verification. </li>
+          <li>Implemented AST-based call-site locator with 5-step verification pipeline; reduced false positives from 41 candidates to 6 verified findings; handles destructuring, aliasing, and optional chaining.</li>
+        </ul>
+        <div class="tags">
+          <span class="tag">Go</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Slack API</span>
+          <span class="tag">Anthropic SDK</span>
+        </div>
+      </div>
+        
+      <div class="card fade">
+        <div class="card-header">
+          <div class="card-icon">
+            <img src="image8.jpg" alt="Icon">
+          </div>
+          <div class="card-meta">
+            <div class="card-title"><a href="https://conduit.navyabijoy.tech/" target="_blank"
                 rel="noopener">Conduit — SaaS Integration Gateway</a></div>
           </div>
         </div>
